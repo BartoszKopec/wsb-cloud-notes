@@ -1,0 +1,22 @@
+{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:55157",
+      "sslPort": 44356
+    }
+  },
+  "profiles": {
+    "Notes.API": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "CONNECTION_STRING": "Server=bkcloudserv.database.windows.net;Database=notes;User ID=test1_key;Password=Silnehaslo1;",
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "PORT": "5000"
+      },
+      "dotnetRunMessages": "true",
+      "applicationUrl": ""
+    }
+  }
+}

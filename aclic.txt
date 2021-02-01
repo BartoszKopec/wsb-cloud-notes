@@ -1,0 +1,10 @@
+// utworzenie grupy zasobów w podanej lokacji
+az group create --name notes-group --location $location
+
+// utworzenie planu app service o podanym SKU
+az appservice plan create --name notes-app-plan --sku $sku
+
+//utworzenie app service
+az webapp create --name notes-app --plan notes-app-plan --runtime "jakiś dotnet"
+
+https://github.com/Azure/azure-libraries-for-net#ready-to-run-code-samples-for-application-services
